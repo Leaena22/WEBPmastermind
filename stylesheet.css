@@ -1,34 +1,42 @@
 
 
 .Titel {
+ boarder-style: solid ;
  boarder-color:black ;
 }
 
 .Anleitung {
+ boarder-style: solid ;
  boarder-color:black;
  background-color:#EDA69A ; 
 }
 
 .controlbar {
+ boarder-style: solid ;
  boarder-color:black ; 
 }
 
 .Spielbrett {
+ boarder-style: solid ;
  boarder-color:black ;
 }
 
 .versteckt {
+ boarder-style: solid ;
  boarder-color:black ; 
 }
 
 .Eingabe {
+ boarder-style: solid ;
  boarder-color:black ; 
 }
 
 .Speicher {
+ boarder-style: solid ;
  boarder-color:black ; 
 }
 
 .Farbpalette {
+ boarder-style: solid ;
  boarder-color:black ; 
 }
