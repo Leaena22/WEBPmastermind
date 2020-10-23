@@ -1,1 +1,34 @@
 
+
+.Titel {
+ boarder-color:black ;
+}
+
+.Anleitung {
+ boarder-color:black;
+ background-color:#EDA69A ; 
+}
+
+.controlbar {
+ boarder-color:black ; 
+}
+
+.Spielbrett {
+ boarder-color:black ;
+}
+
+.versteckt {
+ boarder-color:black ; 
+}
+
+.Eingabe {
+ boarder-color:black ; 
+}
+
+.Speicher {
+ boarder-color:black ; 
+}
+
+.Farbpalette {
+ boarder-color:black ; 
+}
