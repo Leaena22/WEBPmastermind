@@ -2,18 +2,19 @@
 
 .Titel {
  border-style: solid ;
+ border-color: black ;
 
 }
 
 .Anleitung {
  border-style: solid ;
-
+ border-color: black ;
  background-color:#EDA69A ; 
 }
 
 .controlbar {
  border-style: solid ;
-  
+ border-color: black ; 
 }
 
 .Spielbrett {
