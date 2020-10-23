@@ -3,18 +3,24 @@
 .Titel {
  border-style: solid ;
  border-color: black ;
+ width: 33% ;
+ margin-left:0% ;
 
 }
 
 .Anleitung {
  border-style: solid ;
  border-color: black ;
+ width: 33% ;
+ margin-left: 0% ;
  background-color:#EDA69A ; 
 }
 
 .controlbar {
  border-style: solid ;
  border-color: black ; 
+ width:33% ;
+ margin: 0% ;
 }
 
 .Spielbrett {
@@ -42,5 +48,7 @@
 
 .Farbpalette {
  border-style: solid ;
+ width: 33% ;
+ margin-right: 0% ;
   
 }
