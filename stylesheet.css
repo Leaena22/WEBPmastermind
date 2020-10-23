@@ -50,6 +50,6 @@
 .Farbpalette {
  border-style: solid ;
  width: 33% ;
- margin-left: 66% ;
+ float: right ;
   
 }
