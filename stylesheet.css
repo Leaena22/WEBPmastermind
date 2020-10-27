@@ -1,25 +1,23 @@
 .linkeSeite {
  float: left ;
+ width: 33% ;
+ height: 100% ;
 }
 
 .Titel {
  border-style: solid ;
  border-color: black ;
- width: 33% ;
- height: 100% ;
 }
 
 .Anleitung {
  border-style: solid ;
  border-color: black ;
- width: 33% ;
  background-color:#EDA69A ; 
 }
 
 .controlbar {
  border-style: solid ;
- border-color: black ; 
- width:33% ;
+ border-color: black ;
 }
 
 .Spielbrett {
