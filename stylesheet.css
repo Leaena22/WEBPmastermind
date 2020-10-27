@@ -21,7 +21,7 @@
 
 .controlbar {
  border-style: solid ;
- top: 75% ; /* Abstand abhängig von Länge Anleitung */
+ top: 65% ; /* Abstand abhängig von Länge Anleitung */
  position: relative ;
 }
 
@@ -43,13 +43,13 @@
 .Eingabe {
  border-style: solid ;
  position: relative ;
- top: 5% ;  
+ top: 15% ;  
 }
 
 .Speicher {
  border-style: solid ;
  position: relative ;
- top: 5% ;  
+ top: 25% ;  
 }
 
 .Farbpalette {
