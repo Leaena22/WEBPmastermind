@@ -1,19 +1,18 @@
-
+.linkeSeite {
+ float: left ;
+}
 
 .Titel {
  border-style: solid ;
  border-color: black ;
  width: 33% ;
  height: 100% ;
- float: left ;
-
 }
 
 .Anleitung {
  border-style: solid ;
  border-color: black ;
  width: 33% ;
- float: left ;
  background-color:#EDA69A ; 
 }
 
@@ -21,13 +20,12 @@
  border-style: solid ;
  border-color: black ; 
  width:33% ;
- float: left ;
 }
 
 .Spielbrett {
  border-style: solid ;
  width: 33% ;
- float: center ;
+ margin: auto ;
 }
 
 .versteckt {
