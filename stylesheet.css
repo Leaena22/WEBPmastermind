@@ -25,6 +25,7 @@
  border-style: solid ;
  width: 33% ;
  margin: auto ;
+ float: left ;
  height: 100vh ;
 }
 
@@ -47,5 +48,6 @@
  border-style: solid ;
  width: 33% ;
  float: left ;
+ height: 100vh ;
   
 }
