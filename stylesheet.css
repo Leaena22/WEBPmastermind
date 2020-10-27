@@ -15,11 +15,13 @@
  border-style: solid ;
  border-color: black ;
  background-color:#EDA69A ; 
+ position: relative ;
+ top: 5% ;
 }
 
 .controlbar {
  border-style: solid ;
- bottom: 3% ;
+ top: 20% ;
  position: relative ;
 }
 
