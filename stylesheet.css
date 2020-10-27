@@ -3,7 +3,6 @@
  width: 30% ;
  height: 95vh ;
  border-style: solid ;
- position: fixed ;
 }
 
 .Titel {
@@ -20,7 +19,7 @@
 .controlbar {
  border-style: solid ;
  position: absolute ;
- bottom: 3% ;
+ bottom: 30% ;
  width: 100% ;
 }
 
@@ -30,7 +29,6 @@
  margin-left: 4.5% ;
  float: left ;
  height: 95vh ;
- position: fixed ;
 }
 
 .versteckt {
@@ -53,6 +51,4 @@
  width: 30% ;
  float: right ;
  height: 95vh ;
- position: fixed ;
-  
 }
