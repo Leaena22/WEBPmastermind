@@ -2,6 +2,7 @@
  float: left ;
  width: 30% ;
  height: 100vh ;
+ margin-right: 3% ;
  border-style: solid ;
 }
 
@@ -24,8 +25,8 @@
 .Spielbrett {
  border-style: solid ;
  width: 30% ;
- margin: auto ;
- float: center ;
+ margin-left: 3% ;
+ float: left ;
  height: 100vh ;
 }
 
