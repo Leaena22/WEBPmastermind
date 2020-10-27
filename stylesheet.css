@@ -56,6 +56,7 @@
  border-style: solid ;
  width: 30% ;
  float: right ;
- height: 95vh ;
- position: static ;
+ height: 35vh ;
+ position: absolute ;
+ bottom: 5% ;
 }
