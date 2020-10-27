@@ -4,8 +4,8 @@
  border-style: solid ;
  border-color: black ;
  width: 33% ;
- margin-left:0% ;
  height: 100% ;
+ float: left ;
 
 }
 
@@ -13,7 +13,7 @@
  border-style: solid ;
  border-color: black ;
  width: 33% ;
- margin-left: 0% ;
+ float: left ;
  background-color:#EDA69A ; 
 }
 
@@ -21,15 +21,13 @@
  border-style: solid ;
  border-color: black ; 
  width:33% ;
- margin: 0% ;
+ float: left ;
 }
 
 .Spielbrett {
  border-style: solid ;
  width: 33% ;
- margin: auto ;
- 
- 
+ float: center ;
 }
 
 .versteckt {
