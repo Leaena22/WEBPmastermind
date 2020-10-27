@@ -16,12 +16,12 @@
  border-color: black ;
  background-color:#EDA69A ; 
  position: relative ;
- top: 5% ;
+ top: 2.5% ;
 }
 
 .controlbar {
  border-style: solid ;
- top: 60% ;
+ top: 75% ; /* Abstand abhängig von Länge Anleitung */
  position: relative ;
 }
 
@@ -36,17 +36,20 @@
 
 .versteckt {
  border-style: solid ;
- 
+ position: relative ;
+ top: 5% ;
 }
 
 .Eingabe {
  border-style: solid ;
-  
+ position: relative ;
+ top: 5% ;  
 }
 
 .Speicher {
  border-style: solid ;
-  
+ position: relative ;
+ top: 5% ;  
 }
 
 .Farbpalette {
