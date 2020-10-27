@@ -1,7 +1,7 @@
 .linkeSeite {
  float: left ;
  width: 30% ;
- height: 100vh ;
+ height: 95vh ;
  border-style: solid ;
 }
 
@@ -18,15 +18,16 @@
 
 .controlbar {
  border-style: solid ;
- border-color: black ;
+ position: absolute ;
+ bottom: 3% ;
 }
 
 .Spielbrett {
  border-style: solid ;
  width: 30% ;
- margin-left: 4% ;
+ margin-left: 4.5% ;
  float: left ;
- height: 100vh ;
+ height: 95vh ;
 }
 
 .versteckt {
@@ -48,6 +49,6 @@
  border-style: solid ;
  width: 30% ;
  float: right ;
- height: 100vh ;
+ height: 95vh ;
   
 }
