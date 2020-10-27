@@ -1,6 +1,6 @@
 .linkeSeite {
  float: left ;
- width: 33% ;
+ width: 30% ;
  height: 100vh ;
  border-style: solid ;
 }
@@ -23,7 +23,7 @@
 
 .Spielbrett {
  border-style: solid ;
- width: 33% ;
+ width: 30% ;
  margin: auto ;
  float: left ;
  height: 100vh ;
@@ -46,7 +46,7 @@
 
 .Farbpalette {
  border-style: solid ;
- width: 33% ;
+ width: 30% ;
  float: right ;
  height: 100vh ;
   
