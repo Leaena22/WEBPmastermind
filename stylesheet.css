@@ -1,62 +1,219 @@
+/*Schriften */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400&display=swap');
+
+h1 {
+	color: #6D4B52 ;
+	text-transform: uppercase ;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	color: #6D4B52 ;
+	text-transform: uppercase ;
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	color: #6D4B52 ;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+	background-color: #EDBDAE ;
+	outline: none ;
+	border-style: solid ;
+	border-color: #6D4B52 ;
+	border-bottom-width: 0.5em ;
+	border-bottom-color: #6D4B52 ; 
+	color: #6D4B52 ;
+	padding: 1vh 2vh ;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold ;
+	text-align: center ;
+	cursor: pointer ;
+}
+
+.button:hover {
+	background-color: #EDA69A ;
+}
+
 .linkeSeite {
- float: left ;
- width: 30% ;
- height: 95vh ;
- border-style: solid ;
- position: static ;
+	float: left ;
+	width: 30% ;
+	height: 95vh ;
+	position: static ;
 }
 
 .Titel {
- border-style: solid ;
- border-color: black ;
+	padding-left: 2vh ;
 }
 
 .Anleitung {
- border-style: solid ;
- border-color: black ;
- background-color:#EDA69A ; 
- position: relative ;
- top: 2.5% ;
+	background-color:#EDA69A ; 
+	position: relative ;
+	top: 2.5% ;
+	margin-left: 2vh ;
+	padding-left: 2vh ;
+	padding-right: 2vh ;
+	padding-top: 1vh ;
+	padding-bottom: 2vh ;
 }
 
 .controlbar {
- border-style: solid ;
- top: 65% ; /* Abstand abhängig von Länge Anleitung */
- position: relative ;
+	padding-left: 2vh ;
+	top: 25% ; /* Abstand abhängig von Länge Anleitung */
+	position: relative ;
 }
 
 .Spielbrett {
- border-style: solid ;
- width: 30% ;
- margin-left: 4.5% ;
- float: left ;
- height: 95vh ;
- position: static ;
+	background-color:#EDBDAE ; 
+	width: 30% ;
+	margin-left: 4.5% ;
+	float: left ;
+	height: 95vh ;
+	position: static ;
 }
 
 .versteckt {
- border-style: solid ;
- position: relative ;
- top: 5% ;
+	position: relative ;
+	top: 5% ;
+	background-color:#6D4B52 ;
+	margin-left: 7vh ;
+	margin-right: 7vh ;
+	margin-top: 1vh ;
+	margin-bottom: 1vh ;
+	height: 10vh ;
 }
 
 .Eingabe {
- border-style: solid ;
- position: relative ;
- top: 10% ;  
+	position: relative ;
+	top: 12% ;  
 }
 
 .Speicher {
- border-style: solid ;
- position: relative ;
- top: 15% ;  
+	background-color:#EDA69A ;
+	position: relative ;
+	top: 22% ;  
+	border-top-color: #6D4B52 ;
+	border-top-style: solid;
+	border-top-width: 1.5vh ;
 }
 
 .Farbpalette {
- border-style: solid ;
- width: 30% ;
- float: right ;
- height: 35vh ;
- position: relative ;
- bottom: 5% ;
+	width: 30% ;
+	float: right ;
+	height: 35vh ;
+	position: relative ;
+	bottom: 5% ;
+}
+
+.steckplaetze {
+	width: 100% ;
+	display: flex;
+	justify-content: center;
+	margin-top: 3vh ;
+}
+.dot {
+	height: 3vh ;
+	width: 3vh ;
+	background-color: #6D4B52 ;
+	border-radius: 50% ;
+	display: inline-block ;
+	margin-left: 4vh ;
+	margin-right: 4vh ;
+}
+
+.dotbutton-blue {
+	height: 4vh ;
+	width: 4vh ;
+	background-color: #1D70B7 ;
+	border: 0.2em solid #1D70B7 ;
+	border-radius: 50% ;
+	display: inline-block ;
+	margin-right: 3vh ;
+	outline: none ;
+	cursor: pointer ;
+}
+
+.dotbutton-blue:hover {
+	border: 0.2em solid #6D4B52 ;
+}
+
+.dotbutton-red {
+	height: 4vh ;
+	width: 4vh ;
+	background-color: #E30513 ;
+	border: 0.2em solid #E30513 ;
+	border-radius: 50% ;
+	display: inline-block ;
+	margin-right: 3vh ;
+	outline: none ;
+	cursor: pointer ;
+}
+
+.dotbutton-red:hover {
+	border: 0.2em solid #6D4B52 ;
+}
+
+.dotbutton-yellow {
+	height: 4vh ;
+	width: 4vh ;
+	background-color: #F9B233 ;
+	border: 0.2em solid #F9B233 ;
+	border-radius: 50% ;
+	display: inline-block ;
+	margin-right: 3vh ;
+	outline: none ;
+	cursor: pointer ;
+}
+
+.dotbutton-yellow:hover {
+	border: 0.2em solid #6D4B52 ;
+}
+
+.dotbutton-green {
+	height: 4vh ;
+	width: 4vh ;
+	background-color: #008D36 ;
+	border: 0.2em solid #008D36 ;
+	border-radius: 50% ;
+	display: inline-block ;
+	margin-right: 3vh ;
+	outline: none ;
+	cursor: pointer ;
+}
+
+.dotbutton-green:hover {
+	border: 0.2em solid #6D4B52 ;
+}
+
+.dotbutton-purple {
+	height: 4vh ;
+	width: 4vh ;
+	background-color: #A2195B ;
+	border: 0.2em solid #A2195B ;
+	border-radius: 50% ;
+	display: inline-block ;
+	margin-right: 3vh ;
+	outline: none ;
+	cursor: pointer ;
+}
+
+.dotbutton-purple:hover {
+	border: 0.2em solid #6D4B52 ;
+}
+
+.dotbutton-turquoise {
+	height: 4vh ;
+	width: 4vh ;
+	background-color: #44B8B3 ;
+	border: 0.2em solid #44B8B3 ;
+	border-radius: 50% ;
+	display: inline-block ;
+	margin-right: 3vh ;
+	outline: none ;
+	cursor: pointer ;
+}
+
+.dotbutton-turquoise:hover {
+	border: 0.2em solid #6D4B52 ;
 }
