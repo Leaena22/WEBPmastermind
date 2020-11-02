@@ -96,6 +96,7 @@ p {
 	border-top-color: #6D4B52 ;
 	border-top-style: solid;
 	border-top-width: 1.5vh ;
+	padding-bottom: 3vh ;
 }
 
 .Farbpalette {
@@ -112,6 +113,15 @@ p {
 	justify-content: center;
 	margin-top: 3vh ;
 }
+
+.feedback {
+	width: 100% ;
+	display: flex;
+	justify-content: center;
+	margin-top: 4vh ;
+	padding-bottom: 1.5vh ;
+}
+
 .dot {
 	height: 3vh ;
 	width: 3vh ;
@@ -120,6 +130,16 @@ p {
 	display: inline-block ;
 	margin-left: 4vh ;
 	margin-right: 4vh ;
+}
+
+.dot-klein {
+	height: 1.5vh ;
+	width: 1.5vh ;
+	background-color: #6D4B52 ;
+	border-radius: 50% ;
+	display: inline-block ;
+	margin-left: 4.75vh ;
+	margin-right: 4.75vh ;
 }
 
 .dotbutton-blue {
