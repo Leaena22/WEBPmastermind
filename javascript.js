@@ -1,4 +1,4 @@
 function farbwahl(elmnt, clr) {
-  elmnt.style.background-color = clr;
+  elmnt.style.color = clr;
 }
 
