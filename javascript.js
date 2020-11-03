@@ -10,5 +10,5 @@ function farbwahl() {
 */
 
 function farbwahl() {
-  document.getElementById("a").style.background = '#b4d2ff';
+  document.getElementById("a").style.background = '#1D70B7';
 }
