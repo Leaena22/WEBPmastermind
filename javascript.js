@@ -5,5 +5,5 @@
 
 
 function farbwahl(clr) {
-  document.getElementById("a").innerHTML = (clr);
+  document.getElementById("a").style.color = (clr);
 }
