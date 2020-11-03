@@ -15,6 +15,7 @@ function farbwahl() {
 }
 */
 
+/* funktionierende Funktion für Auswahl der Farbe für Dot a */
 function farbwahl(clr) {
   document.getElementById("a").style.background = clr;
 }
