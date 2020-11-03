@@ -4,9 +4,6 @@
 */
 
 
-
-
-<script>
 function farbwahl() {
   document.getElementById("a").innerHTML = "Hello World";
 }
