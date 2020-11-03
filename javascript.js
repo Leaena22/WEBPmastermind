@@ -1,4 +1,4 @@
-function farbwahl(elmnt, clr) {
-  elmnt.style.color = clr;
+function farbwahl(clr) {
+  document.getElementById("a").setBackground(Color.clr)
 }
 
