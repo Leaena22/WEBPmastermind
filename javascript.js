@@ -9,6 +9,12 @@ function farbwahl() {
 }
 */
 
+/* WORKED
 function farbwahl() {
   document.getElementById("a").style.background = '#1D70B7';
+}
+*/
+
+function farbwahl(clr) {
+  document.getElementById("a").style.background = clr;
 }
