@@ -4,6 +4,6 @@
 */
 
 
-function farbwahl() {
-  document.getElementById("a").innerHTML = "Hello World";
+function farbwahl(clr) {
+  document.getElementById("a").innerHTML = (clr);
 }
