@@ -9,6 +9,6 @@ function farbwahl() {
 }
 */
 
-function farbwahl(clr) {
-  document.getElementById("a").style.background = clr;
+function farbwahl() {
+  document.getElementById("a").style.background = #b4d2ff;
 }
