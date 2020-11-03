@@ -5,5 +5,5 @@
 
 
 function farbwahl() {
-  document.getElementById("a").setBackground(Color.blue);
+  document.getElementById("a").style.background = "blue";
 }
