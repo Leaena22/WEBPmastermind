@@ -33,5 +33,5 @@ function farbwahl(clr) {
  // Funktion zum erstellen des zu erratenden Farbcodes
 function erstellenMagicCode (min, max) {
     for (var i = 0; i < 4; i++)
-      code[i] = Math.floor(Math.random() * (max - min)) + min;
+      magicCode[i] = Math.floor(Math.random() * (max - min)) + min;
   };
