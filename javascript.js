@@ -16,8 +16,8 @@ function farbwahl() {
 */
 
 
-var versuch [] // Array für die Eingabezeile
-var magicCode [] // Array für den zu erratenden Farbcode
+var versuch = [] // Array für die Eingabezeile
+var magicCode = [] // Array für den zu erratenden Farbcode
 var farben = ['#1D70B7', '#E30513', '#F9B233', '#008D36', '#A2195B', '#44B8B3']
 
 // Funktion neues Spiel
