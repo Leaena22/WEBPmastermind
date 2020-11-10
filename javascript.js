@@ -27,7 +27,7 @@ function gameSetup () {
 // funktionierende Funktion für Auswahl der Farbe für Dot a
 function farbwahl(clr) {
   document.getElementById("a").style.background = clr;
-  //versuch.push(clr); //übertragen der angewählten Farbe in Array versuch
+  versuch.push(clr); //übertragen der angewählten Farbe in Array versuch
 };
 
 // Funktion zum erstellen des zu erratenden Farbcodes *worked*
