@@ -38,7 +38,7 @@ function erstellenMagicCode (min, max) {
 
 
 // Funktion Vergleich Eingabe und magicCode
-function vergleich {
+function vergleich () {
   if (versuch === magicCode [0]) {
      alert ('ja');
   }
