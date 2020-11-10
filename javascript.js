@@ -32,15 +32,21 @@ function farbwahl(clr) {
 
 // Funktion zum erstellen des zu erratenden Farbcodes *worked*
 function erstellenMagicCode (min, max) {
-    for (var i = 0; i < 1; i++)
+    for (var i = 0; i < 4; i++)
       magicCode[i] = farben[Math.floor(Math.random() * (max - min)) + min]; //+min ändert Ergebnis nicht, weil unser min = 0, muss drinbleiben weil sonst Fehler
   };
 
 
-/*// Funktion Vergleich Eingabe und magicCode
+// Funktion Vergleich Eingabe und magicCode
 function vergleich {
-  
-};*/
+  if (versuch === magicCode [0]) {
+     alert ('ja');
+  }
+  else {
+    alert ('nein');
+  }
+ // Inspiration: https://masteringjs.io/tutorials/fundamentals/compare-arrays
+};
 
 
 
