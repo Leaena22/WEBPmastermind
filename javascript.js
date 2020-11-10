@@ -27,18 +27,15 @@ function gameSetup () {
 // funktionierende Funktion für Auswahl der Farbe für Dot a
 function farbwahl(clr) {
   document.getElementById("a").style.background = clr;
+  versuch.push(clr); //übertragen der angewählten Farbe in Array versuch
 };
 
-/*// Funktion zum erstellen des zu erratenden Farbcodes *worked*
+// Funktion zum erstellen des zu erratenden Farbcodes *worked*
 function erstellenMagicCode (min, max) {
     for (var i = 0; i < 1; i++)
-      magicCode[i] = farben[Math.floor(Math.random() * (max - min)) + min]; //+min macht keinen Unterschied weil unser min = 0
-  };*/
-
-function erstellenMagicCode () {
-    for (var i = 0; i < 1; i++)
-      magicCode[i] = farben[Math.floor(Math.random() * farben.length)];
+      magicCode[i] = farben[Math.floor(Math.random() * (max - min)) + min]; //+min ändert Ergebnis nicht, weil unser min = 0, muss drinbleiben weil sonst Fehler
   };
+
 
 // Funktion Vergleich Eingabe und magicCode
 function vergleich {
