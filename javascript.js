@@ -35,3 +35,5 @@ function erstellenMagicCode (min, max) {
     for (var i = 0; i < 4; i++)
       magicCode[i] = Math.floor(Math.random() * (max - min)) + min;
   };
+
+console.log(magicCode);
