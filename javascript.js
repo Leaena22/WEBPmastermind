@@ -52,3 +52,4 @@ function vergleich () {
 
 
 gameSetup(); // Run the game
+vergleich();
