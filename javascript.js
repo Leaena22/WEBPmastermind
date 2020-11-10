@@ -52,4 +52,6 @@ function vergleich () {
 
 
 gameSetup(); // Run the game
-vergleich();
+//vergleich(); -> funktioniert, allerdings zur falschen Zeit
+
+//nächstes Mal: Funktion Vergleich richtig abrufen und Resultat in Speicher übergeben
