@@ -118,6 +118,13 @@ table {
 	margin-top: 3vh ;
 }
 
+.steckplaetzeSpeicher {
+	width: 100% ;
+	display: flex;
+	justify-content: center;
+	margin-top: 3vh ;
+}
+
 .feedback {
 	width: 100% ;
 	display: flex;
