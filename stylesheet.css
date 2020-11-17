@@ -118,7 +118,7 @@ table {
 	margin-top: 3vh ;
 }
 
-.steckplaetzeSpeicher {
+.fruehereEingaben .row {
 	width: 100% ;
 	display: flex;
 	justify-content: right;
@@ -134,7 +134,7 @@ table {
 	margin-left: 2.5vh ;
 }
 
-.dot {
+.cell {
 	height: 3vh ;
 	width: 3vh ;
 	background-color: #6D4B52 ;
