@@ -121,16 +121,17 @@ table {
 .steckplaetzeSpeicher {
 	width: 100% ;
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 	margin-top: 3vh ;
 }
 
 .feedback {
 	width: 100% ;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	margin-top: 3vh ;
 	padding-bottom: 1.5vh ;
+	margin-left: 2.5vh ;
 }
 
 .dot {
