@@ -21,7 +21,6 @@ var farben = ['#1D70B7', '#E30513', '#F9B233', '#008D36', '#A2195B', '#44B8B3'];
 
 // Funktion neues Spiel
 function gameSetup () {
-    erstelleTabelleFruehereEingaben () ;
     erstellenMagicCode(0, 6);
 };
 
@@ -67,6 +66,7 @@ function erstelleTabelleFruehereEingaben (){
   }
 };  
 
+erstelleTabelleFruehereEingaben () ;
 gameSetup(); // Run the game
 
 // Inspiration: https://masteringjs.io/tutorials/fundamentals/compare-arrays
