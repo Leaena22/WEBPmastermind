@@ -118,7 +118,7 @@ table {
 	margin-top: 3vh ;
 }
 
-.5 {
+#fruehereEingaben > row {
 	width: 100% ;
 	display: flex;
 	justify-content: right;
