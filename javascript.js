@@ -16,17 +16,7 @@ function farbwahl() {
 */
 
 // Tabelle für frühere Eingaben wird automatisch erstellt
-  var rows =5;
-  var cols=4;
-  var table = document.getElementById("fruehereEingaben"); // leere Tabelle in html
-  for (var r = 0; r<rows; r++){
-    var row = table.insertRow(-1);
-    for (var c = 0; c<cols; c++){
-      var cell = row.insertCell(-1);
-      cell.setAttribute('id', 'abcd'.charAt(c) + (rows-r)); //vergibt ids selbstständig
-      cell.setAttribute('class', 'cell ' + ((c+r) % 2 ? 'odd' : 'even'));
-    };
-  };
+  
 
 var versuch = []; // Array für die Eingabezeile
 var magicCode = []; // Array für den zu erratenden Farbcode
