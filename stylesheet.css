@@ -118,12 +118,12 @@ table {
 	margin-top: 3vh ;
 }
 
-/*.row {
+.5 {
 	width: 100% ;
 	display: flex;
 	justify-content: right;
 	margin-top: 3vh ;
-}*/
+}
 
 .feedback {
 	width: 100% ;
@@ -134,7 +134,7 @@ table {
 	margin-left: 2.5vh ;
 }
 
-.cell {
+#a5 {
 	height: 3vh ;
 	width: 3vh ;
 	background-color: #6D4B52 ;
