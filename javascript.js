@@ -45,13 +45,19 @@ function vergleich () {
   else {
     alert ('nein');
   }
- // Inspiration: https://masteringjs.io/tutorials/fundamentals/compare-arrays
+ 
 };
 
-
-
+function anSpeicher() {
+  var table = document.getElementById("Tabelle");
+  var row = table.insertRow(0);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  cell1.innerHTML = "NEW CELL1";
+  cell2.innerHTML = "NEW CELL2";
+};
 
 gameSetup(); // Run the game
-//vergleich(); -> funktioniert, allerdings zur falschen Zeit
 
+// Inspiration: https://masteringjs.io/tutorials/fundamentals/compare-arrays
 //nächstes Mal: Funktion Vergleich richtig abrufen und Resultat in Speicher übergeben
