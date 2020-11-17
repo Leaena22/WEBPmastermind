@@ -61,9 +61,9 @@ function erstelleTabelleFruehereEingaben (){
     for (var c = 0; c<cols; c++){
       var cell = row.insertCell(-1);
       cell.setAttribute('id', 'abcd'.charAt(c) + (rows-r)); //vergibt ids selbstständig
-      //cell.setAttribute('class', 'cell ' + ((c+r) % 2 ? 'odd' : 'even'));
-    }
-  }
+      cell.setAttribute('class', 'cell ' + ((c+r) % 2 ? 'odd' : 'even'));
+    };
+  };
 };  
 
 erstelleTabelleFruehereEingaben () ;
