@@ -61,8 +61,8 @@ for (var r = 0; r<rows; r++){
     var cell = row.insertCell(-1);
     cell.setAttribute('id', 'abcd'.charAt(c) + (rows-r)); //vergibt ids selbstständig
     //cell.setAttribute('class', 'cell ' + ((c+r) % 2 ? 'odd' : 'even'));
-  }
-}
+  };
+};
 
 gameSetup(); // Run the game
 
