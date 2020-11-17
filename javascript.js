@@ -21,6 +21,7 @@ var farben = ['#1D70B7', '#E30513', '#F9B233', '#008D36', '#A2195B', '#44B8B3'];
 
 // Funktion neues Spiel
 function gameSetup () {
+    erstelleTabelleFruehereEingaben () ;
     erstellenMagicCode(0, 6);
 };
 
@@ -52,17 +53,19 @@ function vergleich () {
 } ; */
 
 // Tabelle für frühere Eingaben wird automatisch erstellt
-var rows =5;
-var cols=4;
-var table = document.getElementById("fruehereEingaben"); // leere Tabelle in html
-for (var r = 0; r<rows; r++){
-  var row = table.insertRow(-1);
-  for (var c = 0; c<cols; c++){
-    var cell = row.insertCell(-1);
-    cell.setAttribute('id', 'abcd'.charAt(c) + (rows-r)); //vergibt ids selbstständig
-    //cell.setAttribute('class', 'cell ' + ((c+r) % 2 ? 'odd' : 'even'));
-  };
-};
+function erstelleTabelleFruehereEingaben (){
+  var rows =5;
+  var cols=4;
+  var table = document.getElementById("fruehereEingaben"); // leere Tabelle in html
+  for (var r = 0; r<rows; r++){
+    var row = table.insertRow(-1);
+    for (var c = 0; c<cols; c++){
+      var cell = row.insertCell(-1);
+      cell.setAttribute('id', 'abcd'.charAt(c) + (rows-r)); //vergibt ids selbstständig
+      //cell.setAttribute('class', 'cell ' + ((c+r) % 2 ? 'odd' : 'even'));
+    }
+  }
+};  
 
 gameSetup(); // Run the game
 
