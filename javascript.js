@@ -15,6 +15,19 @@ function farbwahl() {
 }
 */
 
+// Tabelle für frühere Eingaben wird automatisch erstellt
+  var rows =5;
+  var cols=4;
+  var table = document.getElementById("fruehereEingaben"); // leere Tabelle in html
+  for (var r = 0; r<rows; r++){
+    var row = table.insertRow(-1);
+    for (var c = 0; c<cols; c++){
+      var cell = row.insertCell(-1);
+      cell.setAttribute('id', 'abcd'.charAt(c) + (rows-r)); //vergibt ids selbstständig
+      cell.setAttribute('class', 'cell ' + ((c+r) % 2 ? 'odd' : 'even'));
+    };
+  };
+
 var versuch = []; // Array für die Eingabezeile
 var magicCode = []; // Array für den zu erratenden Farbcode
 var farben = ['#1D70B7', '#E30513', '#F9B233', '#008D36', '#A2195B', '#44B8B3'];
@@ -51,22 +64,10 @@ function vergleich () {
   document.getElementById("1").style.background = versuch;
 } ; */
 
-// Tabelle für frühere Eingaben wird automatisch erstellt
-function erstelleTabelleFruehereEingaben (){
-  var rows =5;
-  var cols=4;
-  var table = document.getElementById("fruehereEingaben"); // leere Tabelle in html
-  for (var r = 0; r<rows; r++){
-    var row = table.insertRow(-1);
-    for (var c = 0; c<cols; c++){
-      var cell = row.insertCell(-1);
-      cell.setAttribute('id', 'abcd'.charAt(c) + (rows-r)); //vergibt ids selbstständig
-      cell.setAttribute('class', 'cell ' + ((c+r) % 2 ? 'odd' : 'even'));
-    };
-  };
-};  
 
-erstelleTabelleFruehereEingaben () ;
+  
+
+
 gameSetup(); // Run the game
 
 // Inspiration: https://masteringjs.io/tutorials/fundamentals/compare-arrays
