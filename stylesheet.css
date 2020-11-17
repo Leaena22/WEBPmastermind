@@ -75,7 +75,7 @@ p {
 
 .versteckt {
 	position: relative ;
-	top: 5% ;
+	top: 3% ;
 	background-color:#6D4B52 ;
 	margin-left: 7vh ;
 	margin-right: 7vh ;
@@ -86,13 +86,13 @@ p {
 
 .Eingabe {
 	position: relative ;
-	top: 12% ;  
+	top: 4% ;  
 }
 
 .Speicher {
 	background-color:#EDA69A ;
 	position: relative ;
-	top: 22% ;  
+	top: 8% ;  
 	border-top-color: #6D4B52 ;
 	border-top-style: solid;
 	border-top-width: 1.5vh ;
@@ -118,7 +118,7 @@ p {
 	width: 100% ;
 	display: flex;
 	justify-content: center;
-	margin-top: 4vh ;
+	margin-top: 2vh ;
 	padding-bottom: 1.5vh ;
 }
 
