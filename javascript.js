@@ -53,7 +53,7 @@ function anSpeicher() {
   var row = table.insertRow(0);
   var cell1 = row.insertCell(0);
   var cell2 = row.insertCell(1);
-  var elements = element.getElementsByClassName("steckplaetzeSpeicher");
+  var elements = element.getElementsByClassName("dot");
   cell1.appendChild(elements);
   cell2.innerHTML = "NEW CELL2";
 };
