@@ -107,10 +107,6 @@ p {
 	bottom: 5% ;
 }
 
-table {
-	width: 100%;
-}
-
 .steckplaetze {
 	width: 100% ;
 	display: flex;
@@ -118,23 +114,18 @@ table {
 	margin-top: 3vh ;
 }
 
-.row {
+.fruehereEingaben {
+	width: 100%;
+}
+
+.fErow {
 	width: 100% ;
 	display: flex;
 	justify-content: right;
 	margin-top: 3vh ;
 }
 
-.feedback {
-	width: 100% ;
-	display: flex;
-	justify-content: left;
-	margin-top: 3vh ;
-	padding-bottom: 1.5vh ;
-	margin-left: 2.5vh ;
-}
-
-.cell {
+.fEcell {
 	height: 3vh ;
 	width: 3vh ;
 	background-color: #6D4B52 ;
@@ -143,6 +134,15 @@ table {
 	margin-left: 4vh ;
 	margin-right: 4vh ;
 }
+
+/*.feedback {
+	width: 100% ;
+	display: flex;
+	justify-content: left;
+	margin-top: 3vh ;
+	padding-bottom: 1.5vh ;
+	margin-left: 2.5vh ;
+}*/
 
 .dot-klein {
 	height: 1.5vh ;
