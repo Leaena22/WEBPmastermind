@@ -80,8 +80,10 @@ var rows =5;
     var row = table.insertRow(-1);
     for (var c = 0; c<cols; c++){
       var cell = row.insertCell(-1);
-      cell.setAttribute('id', 'abcd'.charAt(c) + (rows-r)); //vergibt ids selbstständig
-      row.setAttribute('class', "row");
+      cell.setAttribute("id", "abcd".charAt(c) + (rows-r)); //vergibt selbständig individuelle ids 
+      cell.setAttribute("class", "cell") ;
+      row.setAttribute("class", "row");
+	   
     };
   };    
 </script>
