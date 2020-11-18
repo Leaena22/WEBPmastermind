@@ -50,13 +50,12 @@
 		  </div>
 		  
 		  <div class="Speicher">
-			<table id="fruehereEingaben">
+			<table id="fruehereEingaben"></table>
+			
+			<table> id="feedback"></table>
 				
-			  </table>
 				
-				
-				
-	  		</div>
+	  	</div>
 		  </div>
 	  </div>
 	
@@ -81,11 +80,25 @@ var rows =5;
     for (var c = 0; c<cols; c++){
       var cell = row.insertCell(-1);
       cell.setAttribute("id", "abcd".charAt(c) + (rows-r)); //vergibt selbständig individuelle ids 
-      cell.setAttribute("class", "cell") ;
-      row.setAttribute("class", "row");
+      cell.setAttribute("class", "fEcell") ;
+      row.setAttribute("class", "fErow");
 	   
     };
   };    
+	
+var frows =5;
+  var fcols=4;
+  var ftable = document.getElementById("feedback"); // leere Tabelle in html
+  for (var fr = 0; fr<frows; fr++){
+    var frow = ftable.insertRow(-1);
+    for (var fc = 0; fc<fcols; fc++){
+      var fcell = frow.insertCell(-1);
+      cell.setAttribute("id", "wxyz".charAt(fc) + (frows-fr)); //vergibt selbständig individuelle ids 
+      cell.setAttribute("class", "fbcell") ;
+      row.setAttribute("class", "fbrow");
+	   
+    };
+  };  	
 </script>
     </body>
     
