@@ -93,9 +93,9 @@ var frows =5;
     var frow = ftable.insertRow(-1);
     for (var fc = 0; fc<fcols; fc++){
       var fcell = frow.insertCell(-1);
-      cell.setAttribute("id", "wxyz".charAt(fc) + (frows-fr)); //vergibt selbständig individuelle ids 
-      cell.setAttribute("class", "fbcell") ;
-      row.setAttribute("class", "fbrow");
+      fcell.setAttribute("id", "wxyz".charAt(fc) + (frows-fr)); //vergibt selbständig individuelle ids 
+      fcell.setAttribute("class", "fbcell") ;
+      frow.setAttribute("class", "fbrow");
 	   
     };
   };  	
