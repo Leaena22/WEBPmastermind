@@ -134,7 +134,7 @@ table {
 	margin-left: 2.5vh ;
 }
 
-td.row {
+.cell {
 	height: 3vh ;
 	width: 3vh ;
 	background-color: #6D4B52 ;
