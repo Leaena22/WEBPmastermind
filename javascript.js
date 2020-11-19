@@ -61,11 +61,12 @@ function vergleich () {
     // Befehl um Farben aus array in Punkte zu packen ... wie?
 }*/
 
-function an Speicher() {
-  for (var i = 0; i < 4; i++) {
-    document.getElementsByid("").style.background = clr;
+//another try ... 
+/*function an Speicher(color) {
+  for (elements in versuch) {
+    document.getElementsByClass("").style.background = color;
   }
-}
+}*/
   
 
 
