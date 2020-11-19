@@ -55,10 +55,16 @@ function vergleich () {
   document.getElementById("1").style.background = versuch;
 } ; */
 
-function anSpeicher() { //wird noch nirgends abegerufen
+/*function anSpeicher() { //wird noch nirgends abegerufen
   var versuchLaenge = versuch.length;
   for (var i = 0; i < versuchLaenge; i++)
     // Befehl um Farben aus array in Punkte zu packen ... wie?
+}*/
+
+function an Speicher() {
+  for (var i = 0; i < 4; i++) {
+    document.getElementsByid("").style.background = clr;
+  }
 }
   
 
