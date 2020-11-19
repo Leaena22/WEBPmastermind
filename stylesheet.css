@@ -114,8 +114,21 @@ p {
 	margin-top: 3vh ;
 }
 
+.dot {
+	height: 3vh ;
+	width: 3vh ;
+	background-color: #6D4B52 ;
+	border-radius: 50% ;
+	display: inline-block ;
+	margin-left: 4vh ;
+	margin-right: 4vh ;
+}
+
 #fruehereEingaben {
-	width: 100%;
+	width: 70%;
+	float: left ;
+	background-color: #EDA69A ;
+	padding-bottom: 3vh ;
 }
 
 .fErow {
@@ -136,7 +149,10 @@ p {
 }
 
 #feedback {
-	width: 100% ;
+	width: 25%;
+	float: left ;
+	background-color: #EDA69A ;
+	padding-bottom: 3vh ;
 }
 
 .fbrow {
