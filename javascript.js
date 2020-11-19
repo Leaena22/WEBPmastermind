@@ -50,15 +50,20 @@ function vergleich () {
   }
 };
 
+//not working
 /*function anSpeicher (versuch) {
   document.getElementById("1").style.background = versuch;
 } ; */
 
-
+function anSpeicher() { //wird noch nirgends abegerufen
+  var versuchLaenge = versuch.length;
+  for (var i = 0; i < versuchLaenge; i++)
+    // Befehl um Farben aus array in Punkte zu packen ... wie?
+}
   
 
 
 gameSetup(); // Run the game
 
-// Inspiration: https://masteringjs.io/tutorials/fundamentals/compare-arrays
-//nächstes Mal: Funktion Vergleich richtig abrufen und Resultat in Speicher übergeben
+
+//nächstes Mal: Resultat in Speicher übergeben
