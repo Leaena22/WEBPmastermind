@@ -90,7 +90,7 @@ function anSpeicher(versuch) {
   document.getElementById("b").style.background = '#6D4B52';
   document.getElementById("c").style.background = '#6D4B52';
   document.getElementById("d").style.background = '#6D4B52';
-  versuch = new Array();
+  versuch = new Array[];
 }
   
 
