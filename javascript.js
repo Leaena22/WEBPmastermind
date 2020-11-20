@@ -37,10 +37,8 @@ function farbwahl(clr) {
     if (n <= 4) {
       n++ ;
     }
-    else {
-      n=0;
-    };
-};
+    else {}
+   };
 
 // Funktion zum erstellen des zu erratenden Farbcodes *worked*
 function erstellenMagicCode (min, max) {
@@ -90,7 +88,8 @@ function anSpeicher(versuch) {
   document.getElementById("b").style.background = '#6D4B52';
   document.getElementById("c").style.background = '#6D4B52';
   document.getElementById("d").style.background = '#6D4B52';
-  delete versuch[0];
+  n = 0 ;
+  versuch = [];
 }
   
 
