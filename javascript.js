@@ -30,16 +30,17 @@ function gameSetup () {
     erstellenMagicCode(0, 6);
 };
 
-// funktionierende Funktion für Auswahl der Farbe für Dot a --- "wxyz".charAt(fc)
+// funktionierende Funktion für Auswahl der Farbe für Dot a
 function farbwahl(clr) {
     var u = "abcd".charAt(n);
     document.getElementById(u).style.background = clr;
     versuch.push(clr); //übertragen der angewählten Farbe in Array versuch
     if (n <= 4) {
       n++ ;
+    }
     else {
       n=0;
-    }
+    };
 };
 
 // Funktion zum erstellen des zu erratenden Farbcodes *worked*
