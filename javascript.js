@@ -67,6 +67,17 @@ function vergleich () {
     document.getElementsByClass("").style.background = color;
   }
 }*/
+
+
+function anSpeicher() {
+  for (var i = 0; i < 5){ //i++ beim klick auf okay Button
+    for (var y = 0; y < 4; y++) {
+    var p = 1 ;
+    document.getElementbyId(p).style.background = versuch ;
+    p++;
+    }  
+  }
+}
   
 
 
