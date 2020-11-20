@@ -75,7 +75,7 @@ function anSpeicher(versuch) {
   document.getElementById(p).style.background = versuch ;
   p++; 
   } 
-  versuch = [] ;
+  versuch.length =0 ;
 }
   
 
