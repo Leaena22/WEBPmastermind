@@ -73,7 +73,7 @@ function vergleich () {
 function anSpeicher(versuch) {
   for (var i = 0; i < 5; i++){ 
     for (var y = 0; y < 4; y++) {
-    getElementbyId(p).style.background = versuch ;
+    document.getElementById(p).style.background = versuch ;
     p++;
     } 
   }
