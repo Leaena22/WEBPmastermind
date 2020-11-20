@@ -87,7 +87,10 @@ function anSpeicher(versuch) {
   k-- ;
   } 
   versuch.length = 0
-  document.getElementById("a", "b", "c", "d").style.background = '#6D4B52';
+  document.getElementById("a").style.background = '#6D4B52';
+  document.getElementById("b").style.background = '#6D4B52';
+  document.getElementById("c").style.background = '#6D4B52';
+  document.getElementById("d").style.background = '#6D4B52';
   
 }
   
