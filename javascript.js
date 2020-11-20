@@ -91,7 +91,11 @@ function anSpeicher(versuch) {
   n = 0 ;
   versuch.length = 0;
 }
-  
+
+function runTime () {
+  vergleich () ;
+  anSpeicher(versuch) ;
+};
 
 
 gameSetup(); // Run the game
