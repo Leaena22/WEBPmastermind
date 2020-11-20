@@ -69,7 +69,7 @@ function vergleich () {
 }*/
 
 
-function anSpeicher() {
+function anSpeicher(versuch) {
   for (var i = 0; i < 5){ //i++ beim klick auf okay Button
     for (var y = 0; y < 4; y++) {
     var p = 1 ;
