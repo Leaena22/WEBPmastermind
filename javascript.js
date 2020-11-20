@@ -49,7 +49,7 @@ function erstellenMagicCode (min, max) {
 
 // Funktion Vergleich Eingabe und magicCode
 function vergleich () {
-  if JSON.stringify(versuch) === JSON.stringify(magicCode) {
+  if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
      alert ('ja');
   }
   else {
