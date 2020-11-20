@@ -49,7 +49,7 @@ function erstellenMagicCode (min, max) {
 
 // Funktion Vergleich Eingabe und magicCode
 function vergleich () {
-  if (versuch === magicCode [0]) {
+  if (versuch === magicCode) {
      alert ('ja');
   }
   else {
