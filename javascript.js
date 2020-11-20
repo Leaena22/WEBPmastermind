@@ -20,6 +20,7 @@ function farbwahl() {
 
 var versuch = []; // Array für die Eingabezeile
 var magicCode = []; // Array für den zu erratenden Farbcode
+var p = 1 ;
 var farben = ['#1D70B7', '#E30513', '#F9B233', '#008D36', '#A2195B', '#44B8B3'];
 
 // Funktion neues Spiel
@@ -72,7 +73,6 @@ function vergleich () {
 function anSpeicher(versuch) {
   for (var i = 0; i < 5; i++){ 
     for (var y = 0; y < 4; y++) {
-    var p = 1 ;
     getElementbyId(p).style.background = versuch ;
     p++;
     } 
