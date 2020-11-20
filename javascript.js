@@ -19,7 +19,6 @@ function farbwahl() {
   
 
 var versuch = []; // Array für die Eingabezeile
-versuch.length = 4 ;
 var magicCode = []; // Array für den zu erratenden Farbcode
 var p = 1 ;
 var n = 0 ;
