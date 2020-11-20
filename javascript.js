@@ -70,13 +70,12 @@ function vergleich () {
 }*/
 
 //i++ beim klick auf okay Button
-function anSpeicher(versuch) {
-  for (var i = 0; i < 1; i++){ 
-    for (var y = 0; y < 4; y++) {
-    document.getElementById(p).style.background = versuch ;
-    p++;
-    } 
-  }
+function anSpeicher(versuch) { 
+  for (var y = 0; y < 4; y++) {
+  document.getElementById(p).style.background = versuch ;
+  p++; 
+  } 
+  versuch = [] ;
 }
   
 
