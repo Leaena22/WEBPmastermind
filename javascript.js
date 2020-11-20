@@ -71,9 +71,11 @@ function vergleich () {
 
 //i++ beim klick auf okay Button
 function anSpeicher(versuch) { 
+  var k = 3 ;
   for (var y = 0; y < 4; y++) {
-  document.getElementById(p).style.background = versuch ;
-  p++; 
+  document.getElementById(p).style.background = versuch[k] ;
+  p++ ; 
+  k-- ;
   } 
   versuch.length = 0
   document.getElementById("a").style.background = '#6D4B52';
