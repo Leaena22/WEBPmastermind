@@ -76,7 +76,7 @@ function anSpeicher(versuch) {
   p++; 
   } 
   versuch.length = 0
-  document.getElementById("a").style.background = #6D4B52;
+  document.getElementById("a").style.background = '#6D4B52';
   
 }
   
