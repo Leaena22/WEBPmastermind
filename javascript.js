@@ -89,7 +89,7 @@ function anSpeicher(versuch) {
   document.getElementById("c").style.background = '#6D4B52';
   document.getElementById("d").style.background = '#6D4B52';
   n = 0 ;
-  versuch = [];
+  versuch.length = 0;
 }
   
 
