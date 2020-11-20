@@ -73,7 +73,7 @@ function anSpeicher(versuch) {
   for (var i = 0; i < 5; i++){ 
     for (var y = 0; y < 4; y++) {
     var p = 1 ;
-    document.getElementbyId(p).style.background = versuch ;
+    getElementbyId(p).style.background = versuch ;
     p++;
     } 
   }
