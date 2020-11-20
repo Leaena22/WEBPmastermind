@@ -75,9 +75,9 @@ function anSpeicher(versuch) {
     var p = 1 ;
     document.getElementbyId(p).style.background = versuch ;
     p++;
-    }  
-  }
-}
+    } ; 
+  };
+};
   
 
 
