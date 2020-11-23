@@ -60,7 +60,7 @@ p {
 
 .controlbar {
 	padding-left: 2vh ;
-	top: 25% ; /* Abstand abhängig von Länge Anleitung */
+	top: 5% ; /* Abstand abhängig von Länge Anleitung */
 	position: relative ;
 }
 
