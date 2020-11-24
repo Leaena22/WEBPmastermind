@@ -43,8 +43,11 @@ function farbwahl(clr) {
 
 // Funktion für den Löschen-Button
 function loeschen() {
-  versuch.splice(-1, 1);
-  document.getElementById(u).style.background = '#6D4B52';
+  document.getElementById(versuch).reset();
+  document.getElementById("a").style.background = '#6D4B52';
+  document.getElementById("b").style.background = '#6D4B52';
+  document.getElementById("c").style.background = '#6D4B52';
+  document.getElementById("d").style.background = '#6D4B52';
 };
 
 // Funktion zum erstellen des zu erratenden Farbcodes *worked*
