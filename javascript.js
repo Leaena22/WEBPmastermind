@@ -59,6 +59,10 @@ function vergleich () {
         document.getElementById(pp).style.background = "#000000"
         pp++ ;
       }
+      else if (magicCode.splice[x]; magicCode.includes(versuch[x])) {
+        document.getElementById(pp).style.background = "#ffffff"
+        pp++ ;
+      }
       else {pp++ ;}
     }
   }
