@@ -55,12 +55,12 @@ function vergleich () {
   }
   else { 
     for (var x = 3; x >= 0; x--) {
-      if (versuch[x] === magicCode[x]) {
-        document.getElementById(pp).style.background = "#000000"
+      if (magicCode.includes(versuch[x])) {
+        document.getElementById(pp).style.background = "#ffffff"
         pp++ ;
       }
-      else if (magicCode.splice[x]; magicCode.includes(versuch[x])) {
-        document.getElementById(pp).style.background = "#ffffff"
+      else if (versuch[x] === magicCode[x]) {
+        document.getElementById(pp).style.background = "#000000"
         pp++ ;
       }
       else {pp++ ;}
