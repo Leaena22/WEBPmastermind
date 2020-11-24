@@ -20,8 +20,9 @@ function farbwahl() {
 
 var versuch = []; // Array für die Eingabezeile
 var magicCode = []; // Array für den zu erratenden Farbcode
-var p = 1 ;
-var n = 0 ;
+var p = 1 ; // ID der Zelle aus der Tabelle "frühere Eingaben"
+var pp = 21; // ID der Zelle aus der Tabelle "Feedback"
+var n = 0 ; // Variable für die vier Stellen der Eingabe 
 var farben = ['#1D70B7', '#E30513', '#F9B233', '#008D36', '#A2195B', '#44B8B3'];
 
 // Funktion neues Spiel
@@ -31,7 +32,7 @@ function gameSetup () {
 
 // funktionierende Funktion für Auswahl der Farbe für Dot a
 function farbwahl(clr) {
-    var u = "abcd".charAt(n);
+    var u = "abcd".charAt(n); // Variable erhält von n die aktuelle ID a,b,c oder d der Steckplätze 
     document.getElementById(u).style.background = clr;
     versuch.push(clr); //übertragen der angewählten Farbe in Array versuch
     if (n <= 4) {
@@ -52,8 +53,14 @@ function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
      alert ('ja');
   }
-  else {
-    alert ('nein');
+  else { 
+    for (var x = 3; x >= 0; x--) {
+      if (versuch[x] === magicCode[x]) {
+        document.getElementById(pp).style.background = "#000000"
+        pp++ ;
+      }
+      else {pp++ ;}
+    }
   }
 };
 
@@ -77,19 +84,20 @@ function vergleich () {
 
 //i++ beim klick auf okay Button
 function anSpeicher(versuch) { 
-  var k = 3 ;
+  var k = 3 ; // Index im Array Versuch
   for (var y = 0; y < 4; y++) {
   document.getElementById(p).style.background = versuch[k] ;
   p++ ; 
   k-- ;
   } 
  
+  // Eingabesteckplätze werden "geleert", sie erhalten wieder die Default-Farbe
   document.getElementById("a").style.background = '#6D4B52';
   document.getElementById("b").style.background = '#6D4B52';
   document.getElementById("c").style.background = '#6D4B52';
   document.getElementById("d").style.background = '#6D4B52';
-  n = 0 ;
-  versuch.length = 0;
+  n = 0 ; // Springt wieder auf Steckplatz "a" für einen neuen Versuch 
+  versuch.length = 0; // Array Versuch wird zurückgesetzt
 }
 
 function runTime () {
