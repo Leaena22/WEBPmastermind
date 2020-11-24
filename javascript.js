@@ -43,12 +43,10 @@ function farbwahl(clr) {
 
 // Funktion für den Löschen-Button
 function loeschen() {
-  document.getElementById(versuch).reset();
-  document.getElementById("a").style.background = '#6D4B52';
-  document.getElementById("b").style.background = '#6D4B52';
-  document.getElementById("c").style.background = '#6D4B52';
-  document.getElementById("d").style.background = '#6D4B52';
-};
+  var xu = "abcd".charAt(versuch.length -1); 
+  document.getElementById(xu).style.background = '#6D4B52';
+  versuch.splice(versuch.length)
+  };  
 
 // Funktion zum erstellen des zu erratenden Farbcodes *worked*
 function erstellenMagicCode (min, max) {
