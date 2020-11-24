@@ -96,14 +96,14 @@ var rows =5;
 //Automatisch generierte Tabelle "Feedback" mit nummerierten Zellen im Div "Speicher"
 var frows =5;
   var fcols=4;
-var q=40;
+var oo=40;
   var ftable = document.getElementById("feedback"); // leere Tabelle in html
   for (var fr = 0; fr<frows; fr++){
     var frow = ftable.insertRow(-1);
     for (var fc = 0; fc<fcols; fc++){
       var fcell = frow.insertCell(-1);
- 	cell.setAttribute("id", q); //vergibt selbständig individuelle ids 
-      q-- ;
+	cell.setAttribute("id", oo); //vergibt selbständig individuelle ids 
+      oo-- ;
       fcell.setAttribute("class", "fbcell") ;
       frow.setAttribute("class", "fbrow");
 	   
