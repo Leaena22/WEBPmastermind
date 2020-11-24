@@ -45,7 +45,8 @@ function farbwahl(clr) {
 function loeschen() {
   var xu = "abcd".charAt(versuch.length -1); 
   document.getElementById(xu).style.background = '#6D4B52';
-  versuch.splice(versuch.length)
+  versuch.splice(versuch.length -1)
+  n --;
   };  
 
 // Funktion zum erstellen des zu erratenden Farbcodes *worked*
