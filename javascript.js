@@ -43,10 +43,10 @@ function farbwahl(clr) {
 
 // Funktion für den Löschen-Button
 function loeschen() {
-  var xu = "abcd".charAt(versuch.length -1); 
-  document.getElementById(xu).style.background = '#6D4B52';
-  versuch.splice(versuch.length -1);
-  n --;
+  var xu = "abcd".charAt(versuch.length -1); // xu sagt, welche Steckplatz ID angesprochen werden soll
+  document.getElementById(xu).style.background = '#6D4B52'; // Hintergrundfarbe von Steckplatz wird in Default-Farbe gefärbt
+  versuch.splice(versuch.length -1); // letzter Index in Array "versuch" wird gelöscht
+  n --; // Variable aus function "farbwahl" -> sagt dass an der wieder frei gewordenen Stelle weitergemacht wird
   };  
 
 // Funktion zum erstellen des zu erratenden Farbcodes *worked*
@@ -57,16 +57,19 @@ function erstellenMagicCode (min, max) {
 
 
 // Funktion Vergleich Eingabe und magicCode
+//stringify prüft, ob Array "versuch" und "magicCode" exakt gleich sind
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
      alert ('ja');
   }
+  //prüfen, ob richtige Farbe am richtigen Ort
   else { 
     for (var x = 3; x >= 0; x--) {
       if (versuch[x] === magicCode[x]) {
-        document.getElementById(pp).style.background = "#000000"
+        document.getElementById(pp).style.background = "#000000" 
         pp++ ;
       }
+     //prüfen, ob richtige Farbe am falschen Ort
       else if (magicCode.includes(versuch[x])) {
         document.getElementById(pp).style.background = "#ffffff"
         pp++ ;
