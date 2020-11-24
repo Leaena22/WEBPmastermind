@@ -49,7 +49,7 @@ function loeschen() {
   n --; // Variable aus function "farbwahl" -> sagt dass an der wieder frei gewordenen Stelle weitergemacht wird
   };  
 
-// Funktion zum erstellen des zu erratenden Farbcodes *worked*
+// Funktion zum erstellen des zu erratenden Farbcodes
 function erstellenMagicCode (min, max) {
     for (var i = 0; i < 4; i++)
       magicCode[i] = farben[Math.floor(Math.random() * (max - min)) + min]; //+min ändert Ergebnis nicht, weil unser min = 0, muss drinbleiben weil sonst Fehler
