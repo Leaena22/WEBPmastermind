@@ -41,6 +41,12 @@ function farbwahl(clr) {
     else {}
    };
 
+// Funktion für den Löschen-Button
+function loeschen() {
+  versuch.splice(-1, 1);
+  document.getElementById(u).style.background = '#6D4B52';
+};
+
 // Funktion zum erstellen des zu erratenden Farbcodes *worked*
 function erstellenMagicCode (min, max) {
     for (var i = 0; i < 4; i++)
