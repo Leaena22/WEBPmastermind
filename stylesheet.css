@@ -277,3 +277,14 @@ p {
 	z-index: 1000 ;
 	visibility: hidden ;
 }
+
+#gewonnen.hidden {
+	visibility: hidden;
+}
+
+#gewonnen.gewonnen {
+	visibility: visible ;
+}
+	
+	
+	
