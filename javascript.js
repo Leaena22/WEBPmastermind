@@ -114,7 +114,7 @@ function anSpeicher(versuch) {
   document.getElementById("d").style.background = '#6D4B52';
   n = 0 ; // Springt wieder auf Steckplatz "a" für einen neuen Versuch 
   versuch.length = 0; // Array Versuch wird zurückgesetzt
-}
+} ;
 
 function runTime () {
   vergleich () ;
@@ -123,7 +123,7 @@ function runTime () {
 
 function SpielStatus (status) {
   gewonnen.className = status ;
-}
+} ;
 
 gameSetup(); // Run the game
 
