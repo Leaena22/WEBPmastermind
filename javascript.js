@@ -61,8 +61,6 @@ function erstellenMagicCode (min, max) {
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
       modalMessage.innerHTML = '<h2>You cracked the code!</h2> <p>Great! You are awesome! You should feel good now...</p>;
-      //document.getElementById('restartGame').onclick = newGame;
-      //document.getElementById('hideModal').onclick = hideModal;
   }
   //prüfen, ob richtige Farbe am richtigen Ort
   else { 
