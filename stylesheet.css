@@ -275,4 +275,5 @@ p {
 	height: 100% ;
 	position: fixed ;
 	z-index: 1000 ;
+	visibility: hidden ;
 }
