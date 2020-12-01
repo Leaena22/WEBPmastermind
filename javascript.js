@@ -61,7 +61,7 @@ function erstellenMagicCode (min, max) {
 //stringify prüft, ob Array "versuch" und "magicCode" exakt gleich sind
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
-      document.getElementById(gewonnen).insertAdjacentHTML() = '<div class="alert alert-success" role="alert"><p>This is a success alert—check it out!</p></div>';
+      status('gewonnen') ;
   }
   //prüfen, ob richtige Farbe am richtigen Ort
   else { 
@@ -121,6 +121,9 @@ function runTime () {
   anSpeicher(versuch) ;
 };
 
+function SpielStatus (status) {
+  gewonnen.className = status ;
+}
 
 gameSetup(); // Run the game
 
