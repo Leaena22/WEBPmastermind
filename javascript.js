@@ -23,7 +23,7 @@ var magicCode = []; // Array für den zu erratenden Farbcode
 var p = 1 ; // ID der Zelle aus der Tabelle "frühere Eingaben"
 var pp = 21; // ID der Zelle aus der Tabelle "Feedback"
 var n = 0 ; // Variable für die vier Stellen der Eingabe
-modalMessage = document.getElementById('alert alert-success');
+modalMessage = document.getElementById('gameWon');
 var farben = ['#1D70B7', '#E30513', '#F9B233', '#008D36', '#A2195B', '#44B8B3'];
 
 // Funktion neues Spiel
@@ -61,7 +61,7 @@ function erstellenMagicCode (min, max) {
 //stringify prüft, ob Array "versuch" und "magicCode" exakt gleich sind
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
-      modalMessage.innerHTML = '<p>This is a success alert—check it out!</p>';
+      modalMessage.innerHTML = '<div class="alert alert-success" role="alert"><p>This is a success alert—check it out!</p></div>';
   }
   //prüfen, ob richtige Farbe am richtigen Ort
   else { 
