@@ -106,7 +106,12 @@ function anSpeicher(versuch) {
   p++ ; 
   k-- ;
   } 
- 
+  
+  if (p >= 20) {
+    alert ('leider verloren') ;
+    location.reload() ;
+  }
+  
   // Eingabesteckplätze werden "geleert", sie erhalten wieder die Default-Farbe
   document.getElementById("a").style.background = '#6D4B52';
   document.getElementById("b").style.background = '#6D4B52';
@@ -114,6 +119,7 @@ function anSpeicher(versuch) {
   document.getElementById("d").style.background = '#6D4B52';
   n = 0 ; // Springt wieder auf Steckplatz "a" für einen neuen Versuch 
   versuch.length = 0; // Array Versuch wird zurückgesetzt
+
 } ;
 
 function runTime () {
