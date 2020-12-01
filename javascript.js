@@ -61,6 +61,7 @@ function erstellenMagicCode (min, max) {
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
       alert ('Du hast gewonnen!') ;
+      location.reload() ;
   }
   //prüfen, ob richtige Farbe am richtigen Ort
   else { 
