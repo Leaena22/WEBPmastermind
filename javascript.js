@@ -61,7 +61,7 @@ function erstellenMagicCode (min, max) {
 //stringify prüft, ob Array "versuch" und "magicCode" exakt gleich sind
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
-      status('gewonnen') ;
+      SpielStatus('gewonnen') ;
   }
   //prüfen, ob richtige Farbe am richtigen Ort
   else { 
