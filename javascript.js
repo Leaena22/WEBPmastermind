@@ -23,7 +23,7 @@ var magicCode = []; // Array für den zu erratenden Farbcode
 var p = 1 ; // ID der Zelle aus der Tabelle "frühere Eingaben"
 var pp = 21; // ID der Zelle aus der Tabelle "Feedback"
 var n = 0 ; // Variable für die vier Stellen der Eingabe
-gewonnen = document.getElementById('gameWon');
+gewonnen = document.getElementById('gewonnen');
 var farben = ['#1D70B7', '#E30513', '#F9B233', '#008D36', '#A2195B', '#44B8B3'];
 
 // Funktion neues Spiel
