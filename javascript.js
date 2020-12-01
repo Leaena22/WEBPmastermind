@@ -122,7 +122,7 @@ function runTime () {
 };
 
 function SpielStatus (status) {
-  document.getElementById('gewonnen').className = status ;
+  document.getElementById(gewonnen).className = status ;
 } ;
 
 gameSetup(); // Run the game
