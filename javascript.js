@@ -1,22 +1,4 @@
-/*function farbwahl(clr) {
-  document.getElementById("a").setBackground(Color.clr);
-}
-*/
 
-/* WORKED
-function farbwahl() {
-  document.getElementById("a").style.background = "blue";
-}
-*/
-
-/* WORKED
-function farbwahl() {
-  document.getElementById("a").style.background = '#1D70B7';
-}
-*/
-
-// Tabelle für frühere Eingaben wird automatisch erstellt
-  
 
 var versuch = []; // Array für die Eingabezeile
 var magicCode = []; // Array für den zu erratenden Farbcode
@@ -30,9 +12,6 @@ function gameSetup () {
     erstellenMagicCode(0, 6);
 };
 
-function gewonnen() {
-      jAlert('Your accout has been updated!', 'A basic alert');
-};
 
 // funktionierende Funktion für Auswahl der Farbe für Dot a
 function farbwahl(clr) {
@@ -64,8 +43,7 @@ function erstellenMagicCode (min, max) {
 //stringify prüft, ob Array "versuch" und "magicCode" exakt gleich sind
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
-      //alert ('Du hast gewonnen!') ;
-      gewonnen() ;
+      alert ('Hurra! Du hast es geschafft und den Code geknackt! :D') ;
       location.reload() ;
   }
   //prüfen, ob richtige Farbe am richtigen Ort
@@ -85,23 +63,7 @@ function vergleich () {
   }
 };
 
-//not working
-/*function anSpeicher (versuch) {
-  document.getElementById("1").style.background = versuch;
-} ; */
 
-/*function anSpeicher() { //wird noch nirgends abegerufen
-  var versuchLaenge = versuch.length;
-  for (var i = 0; i < versuchLaenge; i++)
-    // Befehl um Farben aus array in Punkte zu packen ... wie?
-}*/
-
-//another try ... 
-/*function an Speicher(color) {
-  for (elements in versuch) {
-    document.getElementsByClass("").style.background = color;
-  }
-}*/
 
 //i++ beim klick auf okay Button
 function anSpeicher(versuch) { 
@@ -113,7 +75,7 @@ function anSpeicher(versuch) {
   } 
   
   if (p >= 32) {
-    alert ('leider verloren') ;
+    alert ('Schade, das war wohl nichts. :( Vielleicht klappts beim nächsten Mal.') ;
     location.reload() ;
   }
   
@@ -136,5 +98,4 @@ function runTime () {
 
 gameSetup(); // Run the game
 
-
-//nächstes Mal: Resultat in Speicher übergeben
+  
