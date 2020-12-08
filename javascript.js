@@ -33,14 +33,16 @@ function loeschen() {
 
 
 // Funktion zum erstellen des zu erratenden Farbcodes
+// Quelle: https://github.com/klomontes/js-mastermind/blob/master/js/main.js
 function erstellenMagicCode (min, max) {
     for (var i = 0; i < 4; i++)
-      magicCode[i] = farben[Math.floor(Math.random() * (max - min)) + min]; //+min ändert Ergebnis nicht, weil unser min = 0, muss drinbleiben weil sonst Fehler
+      magicCode[i] = farben[Math.floor(Math.random() * (max - min)) + min]; //+min ändert Ergebnis nicht, weil unser min = 0, drinbehalten weil sonst der Code mit einem anderen min nicht mehr funktioniert
 };
 
 
 // Funktion Vergleich Eingabe und magicCode
 //stringify prüft, ob Array "versuch" und "magicCode" exakt gleich sind
+// JSON.stringify gefunden auf: https://www.geeksforgeeks.org/how-to-compare-two-arrays-in-javascript/
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
       alert ('Hurra! Du hast es geschafft und den Code geknackt! :D') ;
