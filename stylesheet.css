@@ -125,10 +125,13 @@ p {
 }
 
 #fruehereEingaben {
-	width: 78%;
-	float: left ;
+	width: 100%;
 	background-color: #EDA69A ;
 	padding-bottom: 3vh ;
+	position: absolute ;
+	z-index: 5 ;
+	display: flex;
+	justify-content: center;
 }
 
 .fErow {
@@ -151,9 +154,11 @@ p {
 
 #feedback {
 	width: 22%;
-	float: left ;
+	float: right ;
 	background-color: #EDA69A ;
 	padding-bottom: 3vh ;
+	position: relative ;
+	z-index: 10 ;
 }
 
 .fbrow {
