@@ -21,7 +21,7 @@ function farbwahl() {
 var versuch = []; // Array für die Eingabezeile
 var magicCode = []; // Array für den zu erratenden Farbcode
 var p = 1 ; // ID der Zelle aus der Tabelle "frühere Eingaben"
-var pp = 21; // ID der Zelle aus der Tabelle "Feedback"
+var pp = 33; // ID der Zelle aus der Tabelle "Feedback"
 var n = 0 ; // Variable für die vier Stellen der Eingabe
 var farben = ['#1D70B7', '#E30513', '#F9B233', '#008D36', '#A2195B', '#44B8B3'];
 
@@ -107,7 +107,7 @@ function anSpeicher(versuch) {
   k-- ;
   } 
   
-  if (p >= 20) {
+  if (p >= 32) {
     alert ('leider verloren') ;
     location.reload() ;
   }
