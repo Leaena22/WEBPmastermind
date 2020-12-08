@@ -61,7 +61,7 @@ function erstellenMagicCode (min, max) {
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
       //alert ('Du hast gewonnen!') ;
-      function() {
+      function gewonnen() {
       jAlert('Your accout has been updated!', 'A basic alert');} ;
       location.reload() ;
   }
