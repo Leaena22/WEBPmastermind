@@ -1,9 +1,6 @@
 /*Schriften */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400&display=swap');
 
-@media screen and (max-width:800px) {
-  .left , .main, .right {width:100%;}
-}
 
 h1 {
 	color: #6D4B52 ;
