@@ -277,21 +277,8 @@ p {
 	border: 0.2em solid #6D4B52 ;
 }
 
-#gewonnen {
-	background-color: #6D4B52 ;
-	width: 100% ;
-	height: 100% ;
-	position: fixed ;
-	z-index: 1000 ;
-	visibility: hidden ;
-}
-
-#gewonnen.hidden {
-	visibility: hidden;
-}
-
-#gewonnen.gewonnen {
-	visibility: visible ;
+#alert {
+	background-color: green ;
 }
 	
 	
