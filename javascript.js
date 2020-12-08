@@ -42,7 +42,6 @@ function erstellenMagicCode (min, max) {
 
 // Funktion Vergleich Eingabe und magicCode
 //stringify prüft, ob Array "versuch" und "magicCode" exakt gleich sind
-// JSON.stringify gefunden auf: https://www.geeksforgeeks.org/how-to-compare-two-arrays-in-javascript/
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
       alert ('Hurra! Du hast es geschafft und den Code geknackt! :D') ;
