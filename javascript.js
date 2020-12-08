@@ -60,7 +60,8 @@ function erstellenMagicCode (min, max) {
 //stringify prüft, ob Array "versuch" und "magicCode" exakt gleich sind
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
-      alert ('Du hast gewonnen!') ;
+      //alert ('Du hast gewonnen!') ;
+      jAlert('Your accout has been updated!', 'A basic alert');
       location.reload() ;
   }
   //prüfen, ob richtige Farbe am richtigen Ort
