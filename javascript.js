@@ -30,6 +30,10 @@ function gameSetup () {
     erstellenMagicCode(0, 6);
 };
 
+function gewonnen() {
+      jAlert('Your accout has been updated!', 'A basic alert');
+};
+
 // funktionierende Funktion für Auswahl der Farbe für Dot a
 function farbwahl(clr) {
     var u = "abcd".charAt(n); // Variable erhält von n die aktuelle ID a,b,c oder d der Steckplätze 
@@ -61,8 +65,7 @@ function erstellenMagicCode (min, max) {
 function vergleich () {
   if (JSON.stringify(versuch) === JSON.stringify(magicCode)) {
       //alert ('Du hast gewonnen!') ;
-      function gewonnen() {
-      jAlert('Your accout has been updated!', 'A basic alert');} ;
+      gewonnen() ;
       location.reload() ;
   }
   //prüfen, ob richtige Farbe am richtigen Ort
