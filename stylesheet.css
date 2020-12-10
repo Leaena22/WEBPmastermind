@@ -127,8 +127,8 @@ p {
 }
 
 /* Ist auf gleiche Breite und Position wie das Div Steckplätze eingestellt, damit Farbcodes von Eingabe und Speicher immer sauber übereinander liegen. 
-Durch die Gliederung der Elemente im Speicher auf verschiedene Ebenen bleibt das Div "Feedback" auf der rechten Seite und wird nicht nach unten gedrückt. */
-So liegt das Div "Feedback" über "fruehereEingaben"
+Durch die Gliederung der Elemente im Speicher auf verschiedene Ebenen bleibt das Div "Feedback" auf der rechten Seite und wird nicht nach unten gedrückt. 
+So liegt das Div "Feedback" über "fruehereEingaben" */
 #fruehereEingaben {
 	width: 100%;
 	background-color: #EDA69A ;
